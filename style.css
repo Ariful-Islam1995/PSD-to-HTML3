@@ -1,0 +1,143 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+.header-area {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background:#0984e3;
+}
+.heading {
+	width:30%;
+	float:left;
+}
+.heading a {
+	text-decoration:none;
+	color:#000;
+}
+.heading h1+p {
+	margin:0px;
+	padding:0px;
+}
+.menu-area {
+	width:70%;
+	display:inline-block;
+}
+.menu-area ul{
+	list-style:none;
+	
+}
+.menu-area ul li{
+	display:inline-block;
+}
+.menu-area ul li a {
+	text-decoration:none;
+	padding:20px 25px;
+	display:inline-block;
+	text-transform:uppercase;
+	color:#FFF;
+}
+.menu-area ul li:hover a {
+	background:#dfe6e9;
+	color:#0984e3;
+}
+.sitebar-area {
+	height:500px;
+	background:#8e44ad;
+	overflow:scroll;
+	border:none;
+	background-image: url("img/sea2.png");
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+.sitebar {
+	width:30%;
+	float:left;
+}
+.sitebar ul {
+	list-style:none;
+}
+.sitebar ul li {
+}
+.sitebar ul li a {
+	text-decoration:none;
+	color:#c0392b;
+	font-size:30px;
+	text-transform:uppercase;
+	padding:5px 0px;
+	display:inline-block;
+}
+.sitebar ul li:hover {
+	background:#d35400;
+}
+.sitebar ul li:hover a {
+	color:#FFF;
+}
+.content {
+	width:70%;
+	display:inline-block;
+	font-size:50px;
+	position:relative;
+}
+.footer-area {
+	background:#f1c40f;
+	color:#000;
+	font-size:40px;
+	text-align:center;
+}
+.duck {
+	width:400px;
+	height:400px;
+}
+.duck img {
+	position:absolute;
+}
+.road {
+	width: 100%;
+    height: 250px;
+    background: #000;
+}
+.road ul {
+	list-style:none;
+	padding-top:100px;
+}
+.road ul li {
+	display:inline-block;
+	margin:0px 80px;
+}
+.road ul li a {
+	display:block;
+	padding:10px 50px;
+	background:#FFF;
+}
+
+.car {
+	width:150px;
+	height:70px;
+}
+.car img {
+	width:100%;
+	height:100%;
+	animation-name:car;
+	animation-duration:4s;
+	animation-iteration-count: infinite;
+	animation-direction:alternate-reverse;
+}
+
+@keyframes car {
+	to{
+		transform:translateX(1250px);
+	}
+}
+
+
+
+
+
+
+
+
+
+
